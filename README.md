@@ -3,3 +3,6 @@ SendoはChrome拡張「esa鮮度」のソースコードです。「esa鮮度」
 
 ## インストール
 [こちら](https://chrome.google.com/webstore/detail/gnfoghfdikaeidbbglmeohppeoambfdh/) からどうぞ
+
+## LICENSE
+[MIT](LICENSE)
