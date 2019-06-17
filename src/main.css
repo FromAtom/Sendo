@@ -1,0 +1,10 @@
+.sendo-bar {
+    background-color: #F6EECB;
+    color: #887F5C;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.sendo-bar .fa.fa-exclamation-triangle {
+    margin-right: 6px;
+}

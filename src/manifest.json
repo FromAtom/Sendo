@@ -1,0 +1,22 @@
+{
+    "name": "esa鮮度",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Checker for the freshness of esa posts",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_scripts": [{
+        "matches": [
+            "https://*.esa.io/posts/*"
+        ],
+        "js": [
+            "main.js"
+        ],
+        "css": [
+            "main.css"
+        ]
+    }]
+}
