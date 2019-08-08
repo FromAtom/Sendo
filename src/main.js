@@ -43,10 +43,14 @@ function setUpdatedDate(num, type) {
 (function () {
     let num = 1;
     let type = 7;  // year
-    chrome.storage.local.get("num", function(r){
-        num = r.num;
-        chrome.storage.local.get("type", function(r){
-            type = r.type;
+    chrome.storage.local.get("num", function(r) {
+        if (typeof r.num !== "undefined") {
+            num = r.num;
+        }
+        chrome.storage.local.get("type", function(r) {
+            if (typeof r.type !== "undefined") {
+                type = r.type;
+            }
             setUpdatedDate(num, type);
         });
     });
