@@ -36,7 +36,7 @@ function setUpdatedDate(num, type) {
     icon.className = 'fa fa-exclamation-triangle';
     div.insertBefore(icon, div.firstChild);
 
-    const mainColumn = document.getElementsByClassName('main-column')[0];
+    const mainColumn = document.getElementsByClassName('layout-post__main')[0];
     mainColumn.insertBefore(div, mainColumn.firstChild);
 }
 
