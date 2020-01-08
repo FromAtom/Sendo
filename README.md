@@ -1,4 +1,5 @@
-# Sendo
+![logo](logo.png)
+
 SendoはChrome拡張「esa鮮度」のソースコードです。「esa鮮度」はesaの記事が古いかどうかがひと目で分かるようになるChrome拡張です。
 
 ## インストール
@@ -6,3 +7,6 @@ SendoはChrome拡張「esa鮮度」のソースコードです。「esa鮮度」
 
 ## LICENSE
 [MIT](LICENSE)
+
+## Note
+Icon made by Freepik from [www.flaticon.com](www.flaticon.com)
