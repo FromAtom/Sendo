@@ -9,4 +9,4 @@ SendoはChrome拡張「esa鮮度」のソースコードです。「esa鮮度」
 [MIT](LICENSE)
 
 ## Note
-Icon made by Freepik from [www.flaticon.com](www.flaticon.com)
+Icon made by Freepik from [www.flaticon.com](https://www.flaticon.com)
