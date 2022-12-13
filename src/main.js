@@ -11,7 +11,7 @@ function setUpdatedDate(num, type) {
     ]
     const thresholdMS = num * thresholds[type][0]
 
-    const elements = document.getElementsByClassName('post-author__date');
+    const elements = document.getElementsByClassName('post-author__datetime');
     if (elements.length < 2) { return; }
     const updatedDateString = elements[1].textContent;
     if (!updatedDateString) { return; }
